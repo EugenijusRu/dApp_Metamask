@@ -1,7 +1,12 @@
-import { Box } from "@chakra-ui/react"
+import WalletComponent from "./components/WalletComponent";
+import { Box } from "@chakra-ui/react";
 
 function App() {
-  return <Box>Test</Box>;
+  return  (
+        <Box w={"100vh"} h={"100vh"} p={8}>
+          <WalletComponent />
+        </Box>
+  );
 }
 
 export default App;
